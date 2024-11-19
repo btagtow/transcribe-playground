@@ -1,0 +1,22 @@
+{
+  "name": "transcribe-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bin": {
+    "transcribe-cli": "./transcribe-cli.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-transcribe-streaming": "^3.693.0",
+    "@aws-sdk/lib-storage": "^3.693.0",
+    "microphone-stream": "^6.0.1",
+    "node-record-lpcm16": "^1.0.1",
+    "readline": "^1.3.0"
+  }
+}
